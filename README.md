@@ -67,5 +67,5 @@ docker run -d --name postgresCont -p 5432:5432 -e POSTGRES_PASSWORD=pass123 post
 
 ## Start local keycloak
 ```shell script
-./kc.sh  start-dev
+./kc.sh start-dev  --spi-login-protocol-openid-connect-legacy-logout-redirect-uri=true
 ```
