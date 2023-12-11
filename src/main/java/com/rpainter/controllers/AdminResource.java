@@ -21,4 +21,6 @@ public class AdminResource {
     public String onlyAdmin() {
         return "ok";
     }
+
+
 }

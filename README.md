@@ -58,3 +58,14 @@ If you want to learn more about building native executables, please consult http
 Easily start your Reactive RESTful Web Services
 
 [Related guide section...](https://quarkus.io/guides/getting-started-reactive#reactive-jax-rs-resources)
+
+## Start local database
+
+```shell script
+docker run -d --name postgresCont -p 5432:5432 -e POSTGRES_PASSWORD=pass123 postgres
+```
+
+## Start local keycloak
+```shell script
+./kc.sh  start-dev
+```
