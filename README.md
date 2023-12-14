@@ -63,6 +63,9 @@ Easily start your Reactive RESTful Web Services
 
 ```shell script
 docker run -d --name postgresCont -p 5432:5432 -e POSTGRES_PASSWORD=pass123 postgres
+psql -h localhost -U postgres
+create database recipe;
+
 ```
 
 ## Start local keycloak
